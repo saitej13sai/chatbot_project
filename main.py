@@ -5,7 +5,7 @@ import datetime
 app = Flask(__name__)
 
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyD2wwJeg6vIQUTH1TTqUrtQj9DlQaZrrFk")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyD2wwJeg6vIQUTH1TTqUr\")  # Replace with your actual API key
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Predefined responses
